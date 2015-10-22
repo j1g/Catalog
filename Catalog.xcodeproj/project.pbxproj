@@ -26,6 +26,7 @@
 		337E260D1BD8C312004B9383 /* shuttlecock.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26021BD8C312004B9383 /* shuttlecock.png */; settings = {ASSET_TAGS = (); }; };
 		337E260E1BD8C312004B9383 /* tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26031BD8C312004B9383 /* tennis.png */; settings = {ASSET_TAGS = (); }; };
 		337E260F1BD8C312004B9383 /* volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26041BD8C312004B9383 /* volleyball.png */; settings = {ASSET_TAGS = (); }; };
+		337E26111BD8C6F3004B9383 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26101BD8C6F3004B9383 /* cart.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		337E26021BD8C312004B9383 /* shuttlecock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuttlecock.png; sourceTree = "<group>"; };
 		337E26031BD8C312004B9383 /* tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tennis.png; sourceTree = "<group>"; };
 		337E26041BD8C312004B9383 /* volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volleyball.png; sourceTree = "<group>"; };
+		337E26101BD8C6F3004B9383 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		337E25C91BD8BE30004B9383 /* Catalog */ = {
 			isa = PBXGroup;
 			children = (
+				337E26101BD8C6F3004B9383 /* cart.png */,
 				337E25FA1BD8C312004B9383 /* baseball.png */,
 				337E25FB1BD8C312004B9383 /* basketball.png */,
 				337E25FC1BD8C312004B9383 /* billiard.png */,
@@ -275,6 +278,7 @@
 				337E26091BD8C312004B9383 /* golf.png in Resources */,
 				337E25D01BD8BE30004B9383 /* Main.storyboard in Resources */,
 				337E26081BD8C312004B9383 /* football.png in Resources */,
+				337E26111BD8C6F3004B9383 /* cart.png in Resources */,
 				337E26071BD8C312004B9383 /* billiard.png in Resources */,
 				337E26061BD8C312004B9383 /* basketball.png in Resources */,
 				337E260D1BD8C312004B9383 /* shuttlecock.png in Resources */,
@@ -529,6 +533,7 @@
 				337E25F11BD8BE30004B9383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		337E25F21BD8BE30004B9383 /* Build configuration list for PBXNativeTarget "CatalogTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +542,7 @@
 				337E25F41BD8BE30004B9383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		337E25F51BD8BE30004B9383 /* Build configuration list for PBXNativeTarget "CatalogUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +551,7 @@
 				337E25F71BD8BE30004B9383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

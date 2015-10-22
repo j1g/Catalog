@@ -24,6 +24,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Af-83-SII" id="1V4-82-S79">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ProductName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEM-6v-9c0">
@@ -46,7 +47,9 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmi-KF-1bz">
                                                     <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                    <state key="normal" title="Cart"/>
+                                                    <state key="normal" title="Cart" backgroundImage="cart.png">
+                                                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </state>
                                                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                                         <rect key="frame" x="349" y="7" width="30" height="30"/>
                                                     </variation>
@@ -72,6 +75,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="nameLabel" destination="ZEM-6v-9c0" id="9J6-K7-eOK"/>
+                                            <outlet property="priceLabel" destination="WPS-gW-aNL" id="1ml-zc-XFT"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -105,4 +109,7 @@
             <point key="canvasLocation" x="304.5" y="364.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cart.png" width="512" height="512"/>
+    </resources>
 </document>

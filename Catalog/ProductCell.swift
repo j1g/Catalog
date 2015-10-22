@@ -17,6 +17,7 @@ class ProductCell: UITableViewCell {
     weak var delegate: ProductCellDelegate!
     var productCode: String!
 
+    @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBAction func addCart(sender: AnyObject) {
         print("CART")

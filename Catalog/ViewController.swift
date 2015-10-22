@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     var balls = ["Baseball", "Basketball", "Football", "Golf", "Rugby", "Shuttlecock", "Tennis", "Volleyball", "Billiard", "Icehockey", "Pingpong"]
+    var prices = ["100", "300", "400", "200", "500", "900", "600", "700", "800", "1000", "1100"]
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return balls.count
@@ -30,6 +31,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         
         cell.nameLabel.text = balls[indexPath.row]
+        cell.priceLabel.text = prices[indexPath.row]
         let itemName = balls[indexPath.row]
         
         let image = UIImage(named: "\(itemName).png")

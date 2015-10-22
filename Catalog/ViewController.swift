@@ -21,17 +21,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func addCart(productCode: String) {
         print("\(productCode) added.")
         cart.insert(productCode, atIndex: 0)
-        //cart.append(productCode)
         tableView.reloadData()
     }
 
 
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // 1
-        // Return the number of sections.
         return 2
     }
-
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         /*switch section {

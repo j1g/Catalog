@@ -12,6 +12,7 @@ protocol ProductCellDelegate: class {
     func addCart(ProductCode: String)
     
 }
+
 class ProductCell: UITableViewCell {
     
     weak var delegate: ProductCellDelegate!

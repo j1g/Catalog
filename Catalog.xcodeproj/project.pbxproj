@@ -61,18 +61,18 @@
 		337E25EA1BD8BE30004B9383 /* CatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogUITests.swift; sourceTree = "<group>"; };
 		337E25EC1BD8BE30004B9383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		337E25F81BD8C067004B9383 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
-		337E25FA1BD8C312004B9383 /* baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball.png; sourceTree = "<group>"; };
-		337E25FB1BD8C312004B9383 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
-		337E25FC1BD8C312004B9383 /* billiard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = billiard.png; sourceTree = "<group>"; };
-		337E25FD1BD8C312004B9383 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
-		337E25FE1BD8C312004B9383 /* golf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf.png; sourceTree = "<group>"; };
-		337E25FF1BD8C312004B9383 /* icehockey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icehockey.png; sourceTree = "<group>"; };
-		337E26001BD8C312004B9383 /* pingpong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pingpong.png; sourceTree = "<group>"; };
-		337E26011BD8C312004B9383 /* rugby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugby.png; sourceTree = "<group>"; };
-		337E26021BD8C312004B9383 /* shuttlecock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuttlecock.png; sourceTree = "<group>"; };
-		337E26031BD8C312004B9383 /* tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tennis.png; sourceTree = "<group>"; };
-		337E26041BD8C312004B9383 /* volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volleyball.png; sourceTree = "<group>"; };
-		337E26101BD8C6F3004B9383 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		337E25FA1BD8C312004B9383 /* baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baseball.png; path = Catalog/baseball.png; sourceTree = "<group>"; };
+		337E25FB1BD8C312004B9383 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basketball.png; path = Catalog/basketball.png; sourceTree = "<group>"; };
+		337E25FC1BD8C312004B9383 /* billiard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = billiard.png; path = Catalog/billiard.png; sourceTree = "<group>"; };
+		337E25FD1BD8C312004B9383 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = football.png; path = Catalog/football.png; sourceTree = "<group>"; };
+		337E25FE1BD8C312004B9383 /* golf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = golf.png; path = Catalog/golf.png; sourceTree = "<group>"; };
+		337E25FF1BD8C312004B9383 /* icehockey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icehockey.png; path = Catalog/icehockey.png; sourceTree = "<group>"; };
+		337E26001BD8C312004B9383 /* pingpong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pingpong.png; path = Catalog/pingpong.png; sourceTree = "<group>"; };
+		337E26011BD8C312004B9383 /* rugby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rugby.png; path = Catalog/rugby.png; sourceTree = "<group>"; };
+		337E26021BD8C312004B9383 /* shuttlecock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shuttlecock.png; path = Catalog/shuttlecock.png; sourceTree = "<group>"; };
+		337E26031BD8C312004B9383 /* tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tennis.png; path = Catalog/tennis.png; sourceTree = "<group>"; };
+		337E26041BD8C312004B9383 /* volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volleyball.png; path = Catalog/volleyball.png; sourceTree = "<group>"; };
+		337E26101BD8C6F3004B9383 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = Catalog/cart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,7 @@
 		337E25BE1BD8BE30004B9383 = {
 			isa = PBXGroup;
 			children = (
+				33FAB0F51BD9EB7000E4406A /* Images */,
 				337E25C91BD8BE30004B9383 /* Catalog */,
 				337E25DE1BD8BE30004B9383 /* CatalogTests */,
 				337E25E91BD8BE30004B9383 /* CatalogUITests */,
@@ -123,18 +124,6 @@
 		337E25C91BD8BE30004B9383 /* Catalog */ = {
 			isa = PBXGroup;
 			children = (
-				337E26101BD8C6F3004B9383 /* cart.png */,
-				337E25FA1BD8C312004B9383 /* baseball.png */,
-				337E25FB1BD8C312004B9383 /* basketball.png */,
-				337E25FC1BD8C312004B9383 /* billiard.png */,
-				337E25FD1BD8C312004B9383 /* football.png */,
-				337E25FE1BD8C312004B9383 /* golf.png */,
-				337E25FF1BD8C312004B9383 /* icehockey.png */,
-				337E26001BD8C312004B9383 /* pingpong.png */,
-				337E26011BD8C312004B9383 /* rugby.png */,
-				337E26021BD8C312004B9383 /* shuttlecock.png */,
-				337E26031BD8C312004B9383 /* tennis.png */,
-				337E26041BD8C312004B9383 /* volleyball.png */,
 				337E25CA1BD8BE30004B9383 /* AppDelegate.swift */,
 				337E25CC1BD8BE30004B9383 /* ViewController.swift */,
 				337E25CE1BD8BE30004B9383 /* Main.storyboard */,
@@ -162,6 +151,25 @@
 				337E25EC1BD8BE30004B9383 /* Info.plist */,
 			);
 			path = CatalogUITests;
+			sourceTree = "<group>";
+		};
+		33FAB0F51BD9EB7000E4406A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				337E26101BD8C6F3004B9383 /* cart.png */,
+				337E25FA1BD8C312004B9383 /* baseball.png */,
+				337E25FB1BD8C312004B9383 /* basketball.png */,
+				337E25FC1BD8C312004B9383 /* billiard.png */,
+				337E25FD1BD8C312004B9383 /* football.png */,
+				337E25FE1BD8C312004B9383 /* golf.png */,
+				337E25FF1BD8C312004B9383 /* icehockey.png */,
+				337E26001BD8C312004B9383 /* pingpong.png */,
+				337E26011BD8C312004B9383 /* rugby.png */,
+				337E26021BD8C312004B9383 /* shuttlecock.png */,
+				337E26031BD8C312004B9383 /* tennis.png */,
+				337E26041BD8C312004B9383 /* volleyball.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

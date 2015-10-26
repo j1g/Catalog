@@ -17,6 +17,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var prices = ["100", "300", "400", "200", "500", "1100", "900", "600", "800", "1000", "700"]
     var cart = [String]()
     
+    
+    var data: String!
+    
 
     func addCart(productCode: String) {
         print("\(productCode) added.")
@@ -79,11 +82,48 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if "DETAIL_SEGUE" == segue.identifier {
+            //let detailVC = segue.destinationViewController as! DetailViewController
+            //detailVC.data = balls[indexPath.row]
+            
+            
+            // 테이블 뷰의 셀 선택으로 세그웨이 전환시 - sender는 셀
+            let cell = sender as! UITableViewCell
+            // 셀에서 인덱스 - 사용자 선택 데이터 얻기
+            let indexPath = tableView.indexPathForCell(cell)!
+            let selected = balls[indexPath.row]
+            print("사용자가 선택한 데이터 : \(selected)")
+            let detailVC = segue.destinationViewController as! DetailViewController
+            detailVC.urlStr = selected
+        }
+    }
+    
+    //func indexPathForCell(cell: UITableViewCell) -> NSIndexPath?
+/*
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let cell = sender as! UITableView
+        let indexPath = tableView. indexPathForCell(cell)
+        let selected = data[indexPath.row]
+    }
+*/
+
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         print("selected \(indexPath.row)")
         
         //셀 선택 후 배경색(회색: 선택했다는 표시) 사라짐.
         //tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        
+        data = balls[indexPath.row]
+        
+/*
+        let detailVC = self.storyboard!. instantiateViewControllerWithIdentifier("DETAIL_VC") as! DetailViewController
+        let selected = data[indexPath.row]
+        detailVC.urlStr = selected
+        
+        self.showViewController(detailVC, sender: nil)
+*/
     }
 
 

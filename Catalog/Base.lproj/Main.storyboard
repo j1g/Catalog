@@ -76,7 +76,7 @@
                                         <connections>
                                             <outlet property="nameLabel" destination="ZEM-6v-9c0" id="9J6-K7-eOK"/>
                                             <outlet property="priceLabel" destination="WPS-gW-aNL" id="1ml-zc-XFT"/>
-                                            <segue destination="uJh-1c-xRv" kind="show" id="8wt-KE-G59"/>
+                                            <segue destination="uJh-1c-xRv" kind="show" identifier="DETAIL_SEGUE" id="8wt-KE-G59"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CART_CELL" textLabel="xmE-be-WrW" style="IBUITableViewCellStyleDefault" id="ys1-to-7LX">
@@ -133,7 +133,7 @@
         <!--Detail View Controller-->
         <scene sceneID="xKu-OH-YiY">
             <objects>
-                <viewController id="uJh-1c-xRv" customClass="DetailViewController" customModule="Catalog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DETAIL_VC" id="uJh-1c-xRv" customClass="DetailViewController" customModule="Catalog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L0J-yP-fbx"/>
                         <viewControllerLayoutGuide type="bottom" id="8jg-do-86i"/>
@@ -161,6 +161,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="Gc0-Lc-odH" id="yFm-XJ-euc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rJ8-iz-z9L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

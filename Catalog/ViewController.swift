@@ -10,28 +10,17 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, ProductCellDelegate {
     
-    
     @IBOutlet weak var tableView: UITableView!
     
     let c = CartManager.sharedManager
     let p = ProductManager.sharedManager
     
-    //var balls = ["Baseball", "Basketball", "Football", "Golf", "Rugby", "Shuttlecock", "Tennis", "Volleyball", "Billiard", "Icehockey", "Pingpong"]
-    //var prices = ["100", "300", "400", "200", "500", "1100", "900", "600", "800", "1000", "700"]
     
-    
-    //var data: String!
-    
-
     func addCart(productCode: String) {
         print("\(productCode) added.")
-        //c.addCart(<#T##todo: String##String#>)
-        
-        c.addCart(productCode)
-        //cart.insert(productCode, atIndex: 0)
-        //cartTableView.reloadData()
-    }
 
+        c.addCart(productCode)
+    }
 
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
@@ -49,11 +38,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return p.count()
     }
+    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         //if indexPath.section == 0 {
         
-            //custom cell
+            // Custom Cell
             let cell = tableView.dequeueReusableCellWithIdentifier("PRODUCT_CELL") as! ProductCell
             //cell.nameLabel.text = "Row \(indexPath.row)"
             //cell.nameLabel.text = balls[indexPath.row]
@@ -71,7 +61,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
             return cell
         //}
-            /*
+/*
         else {
             //print("owiejfoiwejfoiwejfiojweiof")
             let cellCart = tableView.dequeueReusableCellWithIdentifier("CART_CELL")!
@@ -100,11 +90,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         //셀 선택 후 배경색(회색: 선택했다는 표시) 사라짐.
         //tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        
-        
-        //data = balls[indexPath.row]   // not necessary???
     }
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -115,7 +101,4 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-

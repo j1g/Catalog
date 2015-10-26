@@ -11,10 +11,9 @@ import UIKit
 class DetailViewController: UIViewController {
     
     var urlStr : String!
-    
     @IBOutlet weak var webView: UIWebView!
     
-    // NOT 'viewDidLoad()': WICHTIG
+    // NOT 'viewDidLoad()': WICHTIG!
     override func viewWillAppear(animated: Bool) {
         if let url = NSURL(string: "https://en.wikipedia.org/wiki/\(urlStr)") {
             let request = NSURLRequest(URL: url)

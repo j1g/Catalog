@@ -10,7 +10,6 @@ import UIKit
 
 protocol ProductCellDelegate: class {
     func addCart(ProductCode: String)
-    
 }
 
 class ProductCell: UITableViewCell {
@@ -20,6 +19,7 @@ class ProductCell: UITableViewCell {
 
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
+    
     @IBAction func addCart(sender: AnyObject) {
         print("CART")
         delegate.addCart(productCode)

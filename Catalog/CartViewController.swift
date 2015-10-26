@@ -11,11 +11,8 @@ import UIKit
 class CartViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     let c = CartManager.sharedManager
-    
     @IBOutlet weak var tableView: UITableView!
     
-    
-
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -24,34 +21,25 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        //return test.count
         return c.count()
     }
     
-    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         //let cellCart = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-        
-        // Configure the cell...
-        
         let cellCart = tableView.dequeueReusableCellWithIdentifier("CART_CELL")!
         cellCart.textLabel?.text = c.items[indexPath.row]
         
         return cellCart
     }
     
-    
     override func viewWillAppear(animated: Bool) {
         tableView.reloadData()
     }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        //tableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {

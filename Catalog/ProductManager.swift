@@ -9,6 +9,7 @@
 import Foundation
 
 class ProductManager {
+    
     static let sharedManager = ProductManager()
     
     var products = ["Baseball", "Basketball", "Football", "Golf", "Rugby", "Shuttlecock", "Tennis", "Volleyball", "Billiard", "Icehockey", "Pingpong"]
@@ -17,9 +18,4 @@ class ProductManager {
     func count() -> Int {
         return products.count
     }
-    
-    func productAt() {
-        
-    }
-
 }

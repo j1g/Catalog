@@ -27,6 +27,7 @@
 		337E260E1BD8C312004B9383 /* tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26031BD8C312004B9383 /* tennis.png */; settings = {ASSET_TAGS = (); }; };
 		337E260F1BD8C312004B9383 /* volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26041BD8C312004B9383 /* volleyball.png */; settings = {ASSET_TAGS = (); }; };
 		337E26111BD8C6F3004B9383 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26101BD8C6F3004B9383 /* cart.png */; settings = {ASSET_TAGS = (); }; };
+		33D0B1A01BDE058E00A26DB8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B19F1BDE058E00A26DB8 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		337E26031BD8C312004B9383 /* tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tennis.png; path = Catalog/tennis.png; sourceTree = "<group>"; };
 		337E26041BD8C312004B9383 /* volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volleyball.png; path = Catalog/volleyball.png; sourceTree = "<group>"; };
 		337E26101BD8C6F3004B9383 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = Catalog/cart.png; sourceTree = "<group>"; };
+		33D0B19F1BDE058E00A26DB8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +128,12 @@
 			children = (
 				337E25CA1BD8BE30004B9383 /* AppDelegate.swift */,
 				337E25CC1BD8BE30004B9383 /* ViewController.swift */,
+				337E25F81BD8C067004B9383 /* ProductCell.swift */,
+				33D0B19F1BDE058E00A26DB8 /* DetailViewController.swift */,
 				337E25CE1BD8BE30004B9383 /* Main.storyboard */,
 				337E25D11BD8BE30004B9383 /* Assets.xcassets */,
 				337E25D31BD8BE30004B9383 /* LaunchScreen.storyboard */,
 				337E25D61BD8BE30004B9383 /* Info.plist */,
-				337E25F81BD8C067004B9383 /* ProductCell.swift */,
 			);
 			path = Catalog;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				337E25F91BD8C067004B9383 /* ProductCell.swift in Sources */,
 				337E25CD1BD8BE30004B9383 /* ViewController.swift in Sources */,
 				337E25CB1BD8BE30004B9383 /* AppDelegate.swift in Sources */,
+				33D0B1A01BDE058E00A26DB8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

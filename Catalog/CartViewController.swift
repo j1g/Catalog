@@ -27,7 +27,12 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         //let cellCart = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
         let cellCart = tableView.dequeueReusableCellWithIdentifier("CART_CELL")!
-        cellCart.textLabel?.text = c.items[indexPath.row]
+        
+        // old version with String
+        //cellCart.textLabel?.text = c.items[indexPath.row]
+
+        // Load from DB
+        cellCart.textLabel?.text = c.items[indexPath.row].name
         
         return cellCart
     }

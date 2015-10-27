@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import RealmSwift
+
+class CartItem: Object {
+    dynamic var name = ""
+}

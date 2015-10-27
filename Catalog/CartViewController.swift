@@ -38,6 +38,7 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     override func viewWillAppear(animated: Bool) {
+        c.loadDB()
         tableView.reloadData()
     }
     

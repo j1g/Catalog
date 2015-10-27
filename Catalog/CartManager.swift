@@ -13,9 +13,9 @@ class CartManager {
     
     static let sharedManager = CartManager()
     var items: Results<CartItem>!
+    let realm = try! Realm()
     
-    let cartItem = CartItem()
-    //cartItem.name = "Football"
+    //let cartItem = CartItem()     // old version
 
     func count() -> Int {
         if items == nil {
@@ -27,17 +27,19 @@ class CartManager {
     }
     
     func addCart(productCode : String) {
-        // items.insert(productCode, atIndex: 0)
+        // items.insert(productCode, atIndex: 0)    // old version
+        let cartItem = CartItem()
         cartItem.name = productCode
         
         // Save in DB
-        let realm = try! Realm()
+        //let realm = try! Realm()
         try! realm.write {
-            realm.add(self.cartItem)
+            self.realm.add(cartItem)    // query
         }
-        
-        // Load from DB
-        items = realm.objects(CartItem)
+    }
+    
+    func loadDB() {
+        items = realm.objects(CartItem)     // query
         print(items)
     }
 }

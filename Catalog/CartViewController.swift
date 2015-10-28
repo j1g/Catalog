@@ -21,6 +21,7 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+        print(c.count())
         return c.count()
     }
     
@@ -31,20 +32,24 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // old version with String
         //cellCart.textLabel?.text = c.items[indexPath.row]
 
-        // Load from DB
-        cellCart.textLabel?.text = c.items[indexPath.row].name
+        // Load from local DB
+        //cellCart.textLabel?.text = c.items[indexPath.row].name
+        
+        // ToDo: Load from parse.com
+        cellCart.textLabel?.text = c.itemList[indexPath.row]
+        print("dadadada: \(cellCart.textLabel?.text)")
         
         return cellCart
     }
     
     override func viewWillAppear(animated: Bool) {
-        c.loadDB()
+        //c.loadDB()
+        c.getRequest()
         tableView.reloadData()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 

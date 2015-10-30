@@ -15,24 +15,24 @@
 		337E25D51BD8BE30004B9383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337E25D31BD8BE30004B9383 /* LaunchScreen.storyboard */; };
 		337E25E01BD8BE30004B9383 /* CatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E25DF1BD8BE30004B9383 /* CatalogTests.swift */; };
 		337E25EB1BD8BE30004B9383 /* CatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E25EA1BD8BE30004B9383 /* CatalogUITests.swift */; };
-		337E25F91BD8C067004B9383 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E25F81BD8C067004B9383 /* ProductCell.swift */; settings = {ASSET_TAGS = (); }; };
-		337E26051BD8C312004B9383 /* baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FA1BD8C312004B9383 /* baseball.png */; settings = {ASSET_TAGS = (); }; };
-		337E26061BD8C312004B9383 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FB1BD8C312004B9383 /* basketball.png */; settings = {ASSET_TAGS = (); }; };
-		337E26071BD8C312004B9383 /* billiard.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FC1BD8C312004B9383 /* billiard.png */; settings = {ASSET_TAGS = (); }; };
-		337E26081BD8C312004B9383 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FD1BD8C312004B9383 /* football.png */; settings = {ASSET_TAGS = (); }; };
-		337E26091BD8C312004B9383 /* golf.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FE1BD8C312004B9383 /* golf.png */; settings = {ASSET_TAGS = (); }; };
-		337E260A1BD8C312004B9383 /* icehockey.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FF1BD8C312004B9383 /* icehockey.png */; settings = {ASSET_TAGS = (); }; };
-		337E260B1BD8C312004B9383 /* pingpong.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26001BD8C312004B9383 /* pingpong.png */; settings = {ASSET_TAGS = (); }; };
-		337E260C1BD8C312004B9383 /* rugby.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26011BD8C312004B9383 /* rugby.png */; settings = {ASSET_TAGS = (); }; };
-		337E260D1BD8C312004B9383 /* shuttlecock.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26021BD8C312004B9383 /* shuttlecock.png */; settings = {ASSET_TAGS = (); }; };
-		337E260E1BD8C312004B9383 /* tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26031BD8C312004B9383 /* tennis.png */; settings = {ASSET_TAGS = (); }; };
-		337E260F1BD8C312004B9383 /* volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26041BD8C312004B9383 /* volleyball.png */; settings = {ASSET_TAGS = (); }; };
-		337E26111BD8C6F3004B9383 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26101BD8C6F3004B9383 /* cart.png */; settings = {ASSET_TAGS = (); }; };
-		33D0B1A01BDE058E00A26DB8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B19F1BDE058E00A26DB8 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		33D0B1A41BDE149400A26DB8 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B1A31BDE149400A26DB8 /* CartViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		33D0B1A81BDE163C00A26DB8 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B1A71BDE163C00A26DB8 /* CartManager.swift */; settings = {ASSET_TAGS = (); }; };
-		33D0B1AA1BDE188B00A26DB8 /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B1A91BDE188B00A26DB8 /* ProductManager.swift */; settings = {ASSET_TAGS = (); }; };
-		6A5308BD1BDF5AB100344BD2 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5308BC1BDF5AB100344BD2 /* CartItem.swift */; settings = {ASSET_TAGS = (); }; };
+		337E25F91BD8C067004B9383 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E25F81BD8C067004B9383 /* ProductCell.swift */; };
+		337E26051BD8C312004B9383 /* baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FA1BD8C312004B9383 /* baseball.png */; };
+		337E26061BD8C312004B9383 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FB1BD8C312004B9383 /* basketball.png */; };
+		337E26071BD8C312004B9383 /* billiard.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FC1BD8C312004B9383 /* billiard.png */; };
+		337E26081BD8C312004B9383 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FD1BD8C312004B9383 /* football.png */; };
+		337E26091BD8C312004B9383 /* golf.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FE1BD8C312004B9383 /* golf.png */; };
+		337E260A1BD8C312004B9383 /* icehockey.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E25FF1BD8C312004B9383 /* icehockey.png */; };
+		337E260B1BD8C312004B9383 /* pingpong.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26001BD8C312004B9383 /* pingpong.png */; };
+		337E260C1BD8C312004B9383 /* rugby.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26011BD8C312004B9383 /* rugby.png */; };
+		337E260D1BD8C312004B9383 /* shuttlecock.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26021BD8C312004B9383 /* shuttlecock.png */; };
+		337E260E1BD8C312004B9383 /* tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26031BD8C312004B9383 /* tennis.png */; };
+		337E260F1BD8C312004B9383 /* volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26041BD8C312004B9383 /* volleyball.png */; };
+		337E26111BD8C6F3004B9383 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 337E26101BD8C6F3004B9383 /* cart.png */; };
+		33D0B1A01BDE058E00A26DB8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B19F1BDE058E00A26DB8 /* DetailViewController.swift */; };
+		33D0B1A41BDE149400A26DB8 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B1A31BDE149400A26DB8 /* CartViewController.swift */; };
+		33D0B1A81BDE163C00A26DB8 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B1A71BDE163C00A26DB8 /* CartManager.swift */; };
+		33D0B1AA1BDE188B00A26DB8 /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B1A91BDE188B00A26DB8 /* ProductManager.swift */; };
+		6A5308BD1BDF5AB100344BD2 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5308BC1BDF5AB100344BD2 /* CartItem.swift */; };
 		C8C6C52DE32B260FBE12689F /* Pods_CatalogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40730A3DEFAF907507C1D983 /* Pods_CatalogTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -292,6 +292,7 @@
 				TargetAttributes = {
 					337E25C61BD8BE30004B9383 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = C9L2SSYEGL;
 					};
 					337E25DA1BD8BE30004B9383 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -608,10 +609,13 @@
 			baseConfigurationReference = 60E48A51960ABDE09F22B2CA /* Pods-Catalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Catalog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.j1g.ios.Catalog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -620,10 +624,13 @@
 			baseConfigurationReference = 47A7CE132650C3627AF24F1A /* Pods-Catalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Catalog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.j1g.ios.Catalog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

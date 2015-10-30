@@ -100,8 +100,8 @@ class CartManager {
     //func getRequest() -> Results<CartItem> {
     func getRequest(){
         let headers = [
-            "X-Parse-Application-ID":"PzVoV4C9uJiOt6ZLoSXjtaRXYmc0MY97Pudbyxiy",
-            "X-Parse-REST-API-Key":"ew8LXDIujLFOtZBqkiHjDNUhnLHLHhAyQZ0VHFK2",
+            "X-Parse-Application-ID":"ID from parse.com",
+            "X-Parse-REST-API-Key":"Key from parse.com",
             "Content-Type":"application/json",
         ]
         
